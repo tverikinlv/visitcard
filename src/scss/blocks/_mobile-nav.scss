@@ -5,11 +5,7 @@
 	width: 100vw;
 	height: 100vh;
     z-index: 99;
-
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-	justify-content: center;
+	display: none;
     padding-top: 40px;
     padding-bottom: 40px;
     // background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
@@ -19,6 +15,10 @@
 
 .mobile-nav--open {
 	top: 0;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
 }
 
 .mobile-nav a {
