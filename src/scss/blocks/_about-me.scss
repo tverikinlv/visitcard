@@ -1,0 +1,52 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4rem;
+
+    padding: 6rem 8rem;
+
+    @media (max-width: 768px) { 
+        padding: 6rem 0;
+    }
+
+    &__paragraph {
+        text-align: justify;
+        padding-bottom: 1rem;
+        font-size: 24px;
+    }
+
+    &__list {
+        margin-left: 4rem;
+        align-self: flex-start;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        list-style: square;
+        padding-bottom: 1rem;
+    }
+
+    &__list-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        font-size: 20px;
+
+        &::before {
+            content: '●';
+            position: absolute;
+            left: -35px;
+        }
+
+        b {
+            font-weight: var(--fw-normal);
+        }
+    }
+}

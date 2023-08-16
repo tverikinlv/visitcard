@@ -1,0 +1,10 @@
+.section-headline{
+    color: var(--bg-dark-accent);
+    font-family: var(--font-main);
+    font-size: 54px;
+    font-weight: var(--fw-normal);
+
+    @media (max-width: 375px) { 
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,129 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6rem;
+
+        @media (max-width: 768px) { 
+            flex-direction: column;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        max-width: 900px;
+        gap: 20px;
+
+        @media (max-width: 768px) { 
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__intro {
+        color: var(--text-color);
+        font-family: var(--font-second);
+        font-size: 34px;
+        font-weight: var(--fw-bold);
+
+        @media (max-width: 480px) { 
+            font-size: 24px;
+        }
+    }
+
+    &__headline {
+        color: var(--text-color);
+        font-family: var(--font-main);
+        font-size: 74px;
+        font-weight: (--fw-normal);
+        
+        @media (max-width: 480px) { 
+            font-size: 32px;
+        }
+    }
+
+    &__description {
+        color: var(--text-color);
+        font-family: var(--font-main);
+        font-size: 40px;
+        font-weight: (--fw-light);
+
+        @media (max-width: 480px) { 
+            font-size: 18px;
+        }
+    }
+
+    &__slogan {
+        color: var(--text-color);
+        font-family: var(--font-main);
+        ;
+        font-size: 24px;
+        font-weight: var(--fw-light);
+    }
+
+    &__foto {
+
+        img, picture {
+            max-width: none;
+            width: 550px;
+            border-radius: var(--radius);
+            
+            @media (max-width: 1152px) { 
+                width: 434px;
+            }
+
+            @media (max-width: 768px) { 
+                width: 100%;
+            }
+
+            @media (max-width: 375px) { 
+                width: 100%;
+            }
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+
+        @media (max-width: 480px) { 
+            justify-content: center;
+        }
+
+        svg:hover,
+        svg:active{
+           fill: #333 
+        }
+    }
+
+    &__contacts-pointer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: auto;
+
+        @media (max-width: 480px) { 
+            display: none;
+        }
+    }
+
+    &__contacts-pointer-text {
+        color: #333;
+        font-family: var(--font-main);
+        font-size: 18px;
+        font-weight: var(--fw-light);
+        text-transform: uppercase;
+
+    }
+
+   
+}

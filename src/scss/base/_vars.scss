@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+	/* Typography */
+
+	--font-main: 'Rubik', sans-serif;
+	--fint-second: 'Ubuntu', sans-serif;
+	--fs-main: 18px;
+	--fw-light: 400;
+	--fw-normal: 500;
+	--fw-bold: 700;
+
+	/* Colors */
+
+	--page-bg: #f8f8f8;
+	--bg-accent: #D6D6D6;
+	--bg-dark-accent: #333;
+	--text-color: #000;
+	
+	--container-width: 1540px;
+	--container-padding: 1rem;
+
+	--radius: 1rem;
+	--radius-full: 50%;
+}

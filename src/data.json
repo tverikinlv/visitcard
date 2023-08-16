@@ -1,0 +1,38 @@
+[ 
+    {
+        "ahref": "https://tverikinlv.github.io/psyconsult/",
+        "imgsrc": "../img/psyconsult.png",
+        "headline": "Сайт-визитка для психолога",
+        "description": "В проекте использованы: figma, html, scss, js, gulp, webpack"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/restaurant/",
+        "imgsrc": "../img/restaurant.png",
+        "headline": "Лендниг для ресторна",
+        "description": "В проекте использованы: figma, html, scss, js (в том числе swiper js), jQuery, gulp, webpack"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/ringstore/",
+        "imgsrc": "../img/ringstore.png",
+        "headline": "Ювелирный интернет-магазин",
+        "description": "В проекте использованы: figma, TypeScript, React, styled-components"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/Clothesstore/",
+        "imgsrc": "../img/clothesstore.png",
+        "headline": "Лендинг для магазина одежды",
+        "description": "В проекте использованы: figma, React, styled-components"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/Portfolio/",
+        "imgsrc": "../img/portfolio.png",
+        "headline": "Лендинг портфолио",
+        "description": "В проекте использованы: figma, React, styled-components"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/jsquestions/",
+        "imgsrc": "../img/jsquestions.png",
+        "headline": "Тест по JavaScript",
+        "description": "В проекте использованы: html, css, js"
+    }
+]
