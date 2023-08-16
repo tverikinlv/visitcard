@@ -8,7 +8,7 @@
     {
         "ahref": "https://tverikinlv.github.io/restaurant/",
         "imgsrc": "./img/restaurant.png",
-        "headline": "Лендниг для ресторна",
+        "headline": "Лендниг для ресторана",
         "description": "В проекте использованы: figma, html, scss, js (в том числе swiper js), jQuery, gulp, webpack"
     },
     {
