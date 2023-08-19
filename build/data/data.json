@@ -1,5 +1,11 @@
 [ 
     {
+        "ahref": "https://tverikinlv.github.io/advice-generator/",
+        "imgsrc": "./img/advice-generator.png",
+        "headline": "Генератор советов",
+        "description": "В проекте использованы: React, CSS, webpack"
+    },
+    {
         "ahref": "https://tverikinlv.github.io/psyconsult/",
         "imgsrc": "./img/psyconsult.png",
         "headline": "Сайт-визитка для психолога",
@@ -28,6 +34,18 @@
         "imgsrc": "./img/portfolio.png",
         "headline": "Лендинг портфолио",
         "description": "В проекте использованы: figma, React, styled-components"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/FAQ-accordion-card/",
+        "imgsrc": "./img/FAQ-accordion-card.png",
+        "headline": "Компонент-аккордион",
+        "description": "В проекте использованы только html и css"
+    },
+    {
+        "ahref": "https://tverikinlv.github.io/results-summary-component-solution/",
+        "imgsrc": "./img/results-summary-component-solution.png",
+        "headline": "Компонент \"Результаты тестирования\" ",
+        "description": "В проекте использованы: html, css, js"
     },
     {
         "ahref": "https://tverikinlv.github.io/jsquestions/",

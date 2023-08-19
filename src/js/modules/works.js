@@ -1,4 +1,4 @@
-export async function getWorksData(url = '../../data.json') {
+export async function getWorksData(url = '../data/data.json') {
     const response = await fetch(url);
     const data = await response.json();
 

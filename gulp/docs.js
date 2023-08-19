@@ -98,11 +98,11 @@ gulp.task('fonts:docs', function () {
 		.pipe(gulp.dest('./docs/fonts/'));
 });
 
-gulp.task('files:docs', function () {
+gulp.task('data:docs', function () {
 	return gulp
-		.src('./src/files/**/*')
-		.pipe(changed('./docs/files/'))
-		.pipe(gulp.dest('./docs/files/'));
+		.src('./src/data/**/*')
+		.pipe(changed('./docs/data/'))
+		.pipe(gulp.dest('./docs/data/'));
 });
 
 gulp.task('js:docs', function () {
