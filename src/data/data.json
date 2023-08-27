@@ -1,4 +1,10 @@
-[ 
+[
+    {
+        "ahref": "https://tverikinlv.github.io/todo-app/",
+        "imgsrc": "./img/todo.png",
+        "headline": "Список дел",
+        "description": "В проекте использованы: TypeScript, React, Redux Toolkit"
+    },
     {
         "ahref": "https://tverikinlv.github.io/advice-generator/",
         "imgsrc": "./img/advice-generator.png",
